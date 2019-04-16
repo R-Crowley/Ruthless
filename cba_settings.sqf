@@ -34,7 +34,7 @@ force force ace_arsenal_fontHeight = 4.5;
 // ACE Captives
 force force ace_captives_allowHandcuffOwnSide = true;
 force force ace_captives_allowSurrender = true;
-force force force ace_captives_requireSurrender = 0;
+force force ace_captives_requireSurrender = 0;
 force force ace_captives_requireSurrenderAi = false;
 
 // ACE Common
@@ -59,7 +59,7 @@ force force ace_cookoff_probabilityCoef = 0.1;
 // ACE Explosives
 force force ace_explosives_explodeOnDefuse = false;
 force force ace_explosives_punishNonSpecialists = true;
-force force ace_explosives_requireSpecialist = true;
+force force ace_explosives_requireSpecialist = false;
 
 // ACE Fragmentation Simulation
 force force ace_frag_enabled = true;
@@ -86,22 +86,22 @@ force force ace_interaction_enableMagazinePassing = true;
 force force ace_interaction_enableTeamManagement = true;
 
 // ACE Interaction Menu
-ace_gestures_showOnInteractionMenu = 2;
-ace_interact_menu_actionOnKeyRelease = true;
-force force ace_interact_menu_addBuildingActions = false;
-ace_interact_menu_alwaysUseCursorInteraction = false;
-ace_interact_menu_alwaysUseCursorSelfInteraction = false;
+force force ace_gestures_showOnInteractionMenu = 2;
+force force ace_interact_menu_actionOnKeyRelease = true;
+force force ace_interact_menu_addBuildingActions = true;
+force force ace_interact_menu_alwaysUseCursorInteraction = true;
+force force ace_interact_menu_alwaysUseCursorSelfInteraction = true;
 ace_interact_menu_colorShadowMax = [0,0,0,1];
 ace_interact_menu_colorShadowMin = [0,0,0,0.25];
 ace_interact_menu_colorTextMax = [1,1,1,1];
 ace_interact_menu_colorTextMin = [1,1,1,0.25];
-ace_interact_menu_cursorKeepCentered = false;
-ace_interact_menu_menuAnimationSpeed = 0;
-ace_interact_menu_menuBackground = 0;
+force force ace_interact_menu_cursorKeepCentered = false;
+force force ace_interact_menu_menuAnimationSpeed = 0;
+force force ace_interact_menu_menuBackground = 0;
 ace_interact_menu_selectorColor = [1,0,0];
 ace_interact_menu_shadowSetting = 2;
 ace_interact_menu_textSize = 2;
-ace_interact_menu_useListMenu = true;
+force force ace_interact_menu_useListMenu = true;
 
 // ACE Logistics
 force force ace_cargo_enable = true;
@@ -112,7 +112,7 @@ force force ace_rearm_supply = 0;
 force force ace_refuel_hoseLength = 12;
 force force ace_refuel_rate = 2;
 force force ace_repair_addSpareParts = true;
-force force force ace_repair_autoShutOffEngineWhenStartingRepair = true;
+force force ace_repair_autoShutOffEngineWhenStartingRepair = true;
 force force ace_repair_consumeItem_toolKit = 0;
 force force ace_repair_displayTextOnRepair = true;
 force force ace_repair_engineerSetting_fullRepair = 1;
@@ -203,7 +203,7 @@ force force ace_medical_useLocation_PAK = 3;
 force force ace_medical_useLocation_SurgicalKit = 2;
 
 // ACE Mk6 Mortar
-force force ace_mk6mortar_airResistanceEnabled = true;
+force force ace_mk6mortar_airResistanceEnabled = false;
 force force ace_mk6mortar_allowCompass = true;
 force force ace_mk6mortar_allowComputerRangefinder = false;
 force force ace_mk6mortar_useAmmoHandling = false;
@@ -221,14 +221,14 @@ force force ace_nametags_showCursorTagForVehicles = false;
 force force ace_nametags_showNamesForAI = false;
 force force ace_nametags_showPlayerNames = 1;
 force force ace_nametags_showPlayerRanks = false;
-ace_nametags_showSoundWaves = 1;
-ace_nametags_showVehicleCrewInfo = true;
-ace_nametags_tagSize = 2;
+force force ace_nametags_showSoundWaves = 1;
+force force ace_nametags_showVehicleCrewInfo = true;
+force force ace_nametags_tagSize = 2;
 
 // ACE Nightvision
 force force ace_nightvision_aimDownSightsBlur = 0.1;
 force force ace_nightvision_disableNVGsWithSights = false;
-force force ace_nightvision_effectScaling = 0;
+force force ace_nightvision_effectScaling = 0.1;
 force force ace_nightvision_fogScaling = 0.1;
 force force ace_nightvision_noiseScaling = 0.1;
 force force ace_nightvision_shutterEffects = true;
